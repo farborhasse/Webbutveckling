@@ -1,9 +1,10 @@
 <script>
-export default {};
+  export default {}
 </script>
 
 <template>
-  <h1>About</h1>
+  <h1>Välkommen till Räknaren</h1>
+  <div>Klicka på knappen för att räkna</div>
   <input
     type="button"
     :value="$store.state.counter"
